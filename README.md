@@ -1,4 +1,4 @@
-## This repository hosts code for a tool that filters CSV's with plain words to a new CSV with words of a desired length.
+## This repository hosts code for A python tool that filters a CSV with plain words by keping only the words of a desired length and produces a new CSV with the filtered data.
 
 ## Installation
 * `Python 3` (min. version 3.9)
