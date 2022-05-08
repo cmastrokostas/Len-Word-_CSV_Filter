@@ -12,6 +12,3 @@ Available in [this link.](https://www.kaggle.com/datasets/jacekpardyak/languages
 
 ## Results
 Configure `Handling\config.py` and run `main.py`.
-
-### Contributors 
-* Charalampos Mastrokostas (chmastrokostas@gmail.com)
