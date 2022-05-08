@@ -4,6 +4,7 @@ This repository hosts code for a python tool that filters a CSV with plain words
 
 ## Installation
 * `Python 3` (min. version 3.9)
+* Run `pip3 install -r requirements.txt`
 
 
 ## Contributors
