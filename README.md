@@ -1,6 +1,6 @@
-## This repository hosts code for a tool that filters CSV's with plain words to a new CSV with words of a desired length.
-#### It also supports UpperCase Conversion, Accentation Removal and Duplicate Word Filtering.
-The tool should work for inputs of CSV files with single words per line and it should output a file with the same format and the corresponding alterations to the users option.
+## This repository hosts code for a tool that filters CSV files with single words per line to a new transformed CSV.
+### Available options are Word Length Filtering, UpperCase Conversion, Accentation Removal and Duplicate Word Filtering.
+The tool should work for inputs of CSV files with single words per line and it should output a file with the same format and the corresponding alterations to the users options.
 
 ## Installation
 * `Python 3` (min. version 3.9)
@@ -13,4 +13,4 @@ The tool should work for inputs of CSV files with single words per line and it s
 Available in [this link.](https://www.kaggle.com/datasets/jacekpardyak/languages-of-europe)
 
 ## Results
-Configure `Handling\config.py` and run `main.py`.
+Configure `Handling\config.py`, run `main.py` and then check the new file you created !
