@@ -32,16 +32,26 @@ def convert(data,mode = 'plain', distinct = True):
     return new_data
 
 
-def write_new(new_data):
-
+def write_new(new_data, txt = True):
+    csv_file = f'el_GR_n_{n}.csv'
     # Write New File.
-    with open(f'el_GR_n_{n}.csv', 'w', newline='',encoding = "utf-8-sig") as file:
+    with open(csv_file, 'w', newline='',encoding = "utf-8-sig") as file:
         writer = csv.writer(file, dialect='excel')
         for word in new_data:
             writer.writerow([word])
-
+    if txt : 
+        csv_to_txt(csv_file)
     return
 
 def strip_accents(s):
     return ''.join(c for c in unicodedata.normalize('NFD', s) 
-            if unicodedata.category(c) != 'Mn')
+            if unicodedata.category(c) != 'Mn')\
+
+def csv_to_txt(csv_file):
+    txt_file = csv_file.replace("csv", "txt")
+
+    with open(txt_file, "w", encoding = "utf-8-sig") as my_output_file:
+        with open(csv_file, "r", encoding = "utf-8-sig") as my_input_file:
+            [ my_output_file.write(" ".join(row)+'\n') for row in csv.reader(my_input_file)]
+        my_output_file.close()
+    return
