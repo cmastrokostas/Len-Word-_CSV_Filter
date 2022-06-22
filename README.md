@@ -10,7 +10,7 @@ The tool should work for inputs of CSV files with single words per line and it s
 * Charalampos Mastrokostas (chmastrokostas@gmail.com)
 
 ## Dataset
-Available in [this link.](https://www.kaggle.com/datasets/jacekpardyak/languages-of-europe)
+Original Dataset Available through [this link.](https://www.kaggle.com/datasets/jacekpardyak/languages-of-europe)
 
 ## Results
 Configure `Handling\config.py`, run `main.py` and then check the new file you created !
