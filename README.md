@@ -3,7 +3,8 @@
 The tool should work for inputs of CSV files with single words per line and it should output a file with the same format and the corresponding alterations to the users options.
 
 ## Installation
-* `Python 3` (min. version 3.9)
+* `Python 3` (min. version 3.9) ,`pip3` (& `py` launcher Windows-only).
+* Run `pip3 install -r requirements.txt`
 
 
 ## Contributors
